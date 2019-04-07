@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars with jQuery!</title>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet" type="text/css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Game Logic -->
+	<script type="text/javascript" src="assets/js/rpgStarWars.js"></script>
+</head>
+
+<body>
+
+	<div class="main-section-title">Star Wars RPG!</div>
+	<div id="main-game-section">
+		<div id="characters-section">
+			<div class="section-title">Select Your Character</div>
+		</div>
+
+		<div id="selected-character-section">
+			<div id="selected-character"></div>
+
+			<h4 id="helth-selected"></h4>
+
+		</div>
+		<div class="section-title">Your Character</div>
+		<div class="caracter-image">
+			<div class="caracter">
+				<img id="image1" src="assets/images/darth-sidious.png">
+
+
+
+				<img id="image2" src="assets/images/luke-skywalker.jpg">
+
+
+
+
+				<img id="image3" src="assets/images/obi-wan.jpg">
+
+
+
+				<img id="image4" src="assets/images/darth-maul.jpg">
+
+
+
+			</div>
+
+			<div id="available-to-attack-section">
+				<div class="section-title">Enemies Available To Attack</div>
+			</div>
+
+			<div class="section-title">Fight Section</div>
+			<div id="fight-section">
+				<button id="attack-button">Attack</button>
+			</div>
+
+			<div id="action">
+				<div class="character-section">
+					<div class="section-title">Defender</div>
+					<div id="defender"></div>
+					<h3 id="chat"></h3>
+					<h4 id="helth-defender"></h4>
+				</div>
+			</div>
+
+		</div>
+		<div id="game-message"></div>
+		<script src="assets/js/script.js"></script>
+</body>
+
+</html>
