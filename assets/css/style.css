@@ -14,6 +14,9 @@ body {
   color: red; 
 }
 
+.re-start {
+  display: none;
+}
 
 
 img {
@@ -84,8 +87,9 @@ img {
 }
 
 #selected-character {
-  width: 190px;
+  width: 600px;
   height: 160px;
+ 
 }
 
 #attacker {
